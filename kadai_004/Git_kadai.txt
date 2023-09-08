@@ -1,0 +1,19 @@
+
+PS C:\Users\Norio\Desktop\侍エンジニア\git_folder> mkdir git_challenge                      
+    ディレクトリ: C:\Users\Norio\Desktop\侍エンジニア\git_folder
+
+----                 -------------         ------ ----
+d-----        2023/09/08     21:12                git_challenge
+
+PS C:\Users\Norio\Desktop\侍エンジニア\git_folder\git_challenge> git init
+Initialized empty Git repository in C:/Users/Norio/Desktop/侍エンジニア/git_folder/git_challenge/.git/
+[main (root-commit) 949e5c7] 1回目のコミット
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\Norio\Desktop\侍エンジニア\git_folder\git_challenge> git add hello_world.txt       
+PS C:\Users\Norio\Desktop\侍エンジニア\git_folder\git_challenge> git commit -m"2回目のコミット" 
+[main c2896f1] 2回目のコミット
+ 1 file changed, 2 insertions(+), 1 deletion(-)     
+PS C:\Users\Norio\Desktop\侍エンジニア\git_folder\git_challenge> git log --oneline
+c2896f1 (HEAD -> main) 2回目のコミット
+949e5c7 1回目のコミット
